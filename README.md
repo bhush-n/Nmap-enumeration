@@ -1,5 +1,7 @@
 # Exploring and Mapping a Local Network Using Nmap on Kali Linux
 
+![Project 1](https://github.com/bhush-n/Nmap-enumeration/blob/main/Kali-Project.gif)
+
 ## Table of contents
 
 [Overview](https://github.com/bhush-n/Nmap-enumeration#overview)
