@@ -1,5 +1,19 @@
 # Exploring and Mapping a Local Network Using Nmap on Kali Linux
 
+## Table of contents
+
+[Overview](https://github.com/bhush-n/Nmap-enumeration#overview)
+
+[Requirements](https://github.com/bhush-n/Nmap-enumeration#Requirements)
+
+[Setup and Tools](https://github.com/bhush-n/Nmap-enumeration#setup_and_tools)
+
+[Steps](https://github.com/bhush-n/Nmap-enumeration#steps)
+
+[Resources](https://github.com/bhush-n/Nmap-enumeration#additional_resources)
+
+[Support](https://github.com/bhush-n/Nmap-enumeration#support)
+
 ## Overview
 In this guide, you will learn to use Nmap, a robust network scanning utility, to detect devices and services operating on a local network. Network scanning and mapping are vital techniques for ethical hackers, aiding in pinpointing potential targets and vulnerabilities within a network. By the conclusion of this guide, you will be proficient in executing basic network scans, identifying open ports, and extracting information about network devices using Kali Linux.
 
@@ -64,3 +78,7 @@ sudo apt-get update && sudo apt-get install nmap
 - [Online Nmap Course on Udemy](https://www.udemy.com/course/nmap/)
 
 This guide provides a foundational understanding of using Nmap for network scanning and mapping, crucial skills for any ethical hacker.
+
+## Support
+
+For support, email bhushanch45@gmail.com.
