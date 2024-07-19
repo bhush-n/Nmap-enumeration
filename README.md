@@ -64,4 +64,3 @@ sudo apt-get update && sudo apt-get install nmap
 - [Online Nmap Course on Udemy](https://www.udemy.com/course/nmap/)
 
 This guide provides a foundational understanding of using Nmap for network scanning and mapping, crucial skills for any ethical hacker.
-```
