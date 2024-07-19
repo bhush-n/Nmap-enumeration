@@ -19,3 +19,49 @@ In this guide, you will learn to use Nmap, a robust network scanning utility, to
 Nmap comes pre-installed on Kali Linux. You can confirm its installation or update it using:
 ```sh
 sudo apt-get update && sudo apt-get install nmap
+```
+## Steps
+
+### Step 1: Performing a Basic Network Scan
+- Launch a terminal on your Kali Linux system.
+- Conduct a basic scan on your local network. Replace `192.168.1.0/24` with your network's IP range.
+    ```sh
+    nmap 192.168.1.0/24
+    ```
+- Expected Result: A list of network devices, their IP addresses, and open ports.
+
+### Step 2: Scanning Specific Ports
+- To scan a specific port (e.g., HTTP port 80), use the `-p` option:
+    ```sh
+    nmap -p 80 192.168.1.0/24
+    ```
+- Expected Result: A list of devices with port 80 open.
+
+### Step 3: Detecting Service Versions
+- Utilize the `-sV` option to determine the version of services on open ports:
+    ```sh
+    nmap -sV 192.168.1.0/24
+    ```
+- Expected Result: A detailed list of open ports and running services with version information.
+
+### Step 4: Identifying Operating Systems
+- Use the `-O` option to detect the operating systems of network devices:
+    ```sh
+    sudo nmap -O 192.168.1.0/24
+    ```
+- Expected Result: Details about the operating systems of devices on the network.
+
+### Step 5: Executing an Aggressive Scan
+- Conduct an aggressive scan using the `-A` option, which encompasses OS detection, version detection, script scanning, and traceroute:
+    ```sh
+    sudo nmap -A 192.168.1.0/24
+    ```
+- Expected Result: Comprehensive data about network devices, including open ports, services, versions, operating systems, and traceroute information.
+
+## Additional Resources
+- [Nmap Official Documentation](https://nmap.org/docs.html)
+- [Nmap Cheat Sheet](https://nmap.org/book/man-briefoptions.html)
+- [Online Nmap Course on Udemy](https://www.udemy.com/course/nmap/)
+
+This guide provides a foundational understanding of using Nmap for network scanning and mapping, crucial skills for any ethical hacker.
+```
